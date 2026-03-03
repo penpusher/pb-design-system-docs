@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+  --font-sans: 'Open Sans', 'Piraeus Open Sans', sans-serif;
+
+  --brand: #002f30;
+  --brand-yellow: #ffd900;
+
+  --primary-bg: #002f30;
+  --primary-hover: #557475;
+  --primary-active: #002728;
+
+  --brand-bg: #ffd900;
+  --brand-hover: #ffe655;
+  --brand-active: #d5b500;
+
+  --secondary-hover: #fff2aa;
+  --secondary-active: #fff2aa;
+
+  --stroke-brand: #002f30;
+  --stroke-focus: #286ed5;
+  --stroke-disabled: #bdbdbd;
+
+  --text-inverse: #ffffff;
+  --text-brand: #002f30;
+  --text-disabled: #bdbdbd;
+
+  --bg-disabled: #e9e9e9;
+
+  --doc-bg: #f7f5f0;
+  --doc-surface: #ffffff;
+  --doc-text: #1a1a1a;
+  --doc-text-subtle: #666666;
+  --doc-border: #e5e5e5;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-sans);
+  color: var(--doc-text);
+  background: var(--doc-bg);
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+}
